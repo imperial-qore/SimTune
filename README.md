@@ -1,6 +1,6 @@
 # SimTune
 
-"SimTune: Simulator Tuning to Bridge the Reality Gap for Resource Management in Edge Computing"
+This is the code repository that supplements the work: "SimTune: Simulator Tuning to Bridge the Reality Gap for Resource Management in Edge Computing".
 
 <a href="https://gitpod.io/#https://github.com/imperial-qore/SimTune/">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in gitpod">
@@ -29,14 +29,13 @@ Or use pre-installed gitpod.
 ### Quick test.
 
 ```console
-# deploy a single VM and print VM IP
-python3 debug/deployazure.py
-
-# test function
-http http://<public_ip>:7071/api/onnx @debug/babyyoda.jpg > output.jpg
+python3 simtune.py
 ```
 
-# Details and motivation
+## License
 
+BSD-3-Clause. 
+Copyright (c) 2022, Shreshth Tuli.
+All rights reserved.
 
-## Visualization
+See License file for more details.
